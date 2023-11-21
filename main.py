@@ -186,7 +186,8 @@ def lens_design(Lens_select_option):
 
 
 
-color_list = [ "green", "greenyellow", "forestgreen", "limegreen", "lightgreen",  "darkgreen", "palegreen", "rosybrown", "royalblue", "hotpink", "indianred", "lemonchiffon"]
+color_list =  [ "green", "rosybrown", "royalblue", "hotpink", "orange","aqua", "indianred","greenyellow", "forestgreen", "limegreen", "lightgreen",  "darkgreen", "palegreen", "rosybrown", "royalblue", "hotpink", "indianred", "lemonchiffon"]
+
 
 file_path = "./raw_data/" + options[selected_file]
 df= pd.read_csv(file_path, index_col= 0)
